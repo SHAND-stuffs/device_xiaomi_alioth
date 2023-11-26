@@ -16,6 +16,10 @@
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/qcom
 
+# Private Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/xiaomi/alioth/sepolicy/private
+
 # Xiaomi Sepolicy
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/audio \
